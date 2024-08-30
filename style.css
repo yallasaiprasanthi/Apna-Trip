@@ -5,8 +5,7 @@
 .b {
     background-color: #f2f5f7;
     width: 100vw;
-    padding: 0;
-    margin: 0;
+   
 }
 .india-card {
     height: 300px; /* Set the desired height */
@@ -23,7 +22,7 @@
     background-color: #022135;
     border-radius: 5px;
     border-width: 5px;
-    height: 100vh;
+    height: 1150px;
     width: 25vw;
 }
 
@@ -139,10 +138,62 @@
     font-size: 38px;
 }
 .apna-trip-icon{
-    height:30px;
-    width:50px;
+    height:50px;
+    width:80px;
 }
-.category-card:hover{
+ .h:hover{
+    transform: scale(1.05) ;
+} 
+.search{
+    height: 45px;
+    width:380px;
+    /* border: 2px solid black; */
+    border-radius: 70px;
+    display: flex;
+}
+.img_list{
+    text-align: center;
+}
+.img_list p{
+    padding-top: 30px;
+}
+.img_list .date{
+    color: #003366;
+    font-size: 20px;
+}
+.img_list .act_name{
+    color: #02aed6;
+    font-size: 24px;
+}
+.img_item{
+    width: 350px;
     height: 300px;
-    width:400px;
+    border-radius:15px;
+}
+.Categorize-Your-Trip{
+    color:#0a223a;
+}
+.travel{
+    color:#b93582;
+}
+.wow{
+    width:100vw;
+    border: 2px;
+    height: 400px;
+    display: flex;
+    gap: 100px;
+
+}
+.inner{
+    display: flex;
+    overflow-x: scroll;
+}
+.plan-card{
+    background-color:#ffffff;
+    width:500px;
+    height:200px;
+    padding:20px;
+}
+a{
+    text-decoration: none;
 }
